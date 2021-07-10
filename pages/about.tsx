@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function About() {
 	return (
-		<div className="container">
+		<div className="text-center">
 			<Head>
 				<title>About</title>
 				<meta
@@ -12,7 +12,7 @@ export default function About() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<h1>About</h1>
+			<h1 className="">About</h1>
 			<div>
 				<p>
 					Love giphys? So do we. use our app <b>giphy search</b> to find the
@@ -28,18 +28,18 @@ export default function About() {
 				</p>
 
 				<p>
-					The old saying "a picture is worth a thousand words" is quite cliche.
-					But that doesn't make it any less true, especially in marketing and
-					particularly in the instant-gratification, short attention span world
-					we live in today. Getting folks to retain (or even register) your
-					messages and content or take action is harder than ever, especially if
-					all you are giving them is words.
+					The old saying &quot;a picture is worth a thousand words &quot; is
+					quite cliche. But that doesn&apos;t make it any less true, especially
+					in marketing and particularly in the instant-gratification, short
+					attention span world we live in today. Getting folks to retain (or
+					even register) your messages and content or take action is harder than
+					ever, especially if all you are giving them is words.
 				</p>
 
 				<p>
 					Images are stronger than words. However, the fast-moving nature of
 					GIFs make them stronger than images and their shorter length make them
-					more digestible than video. That's the short answer.
+					more digestible than video. That&apos;s the short answer.
 				</p>
 			</div>
 		</div>
