@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function About() {
 	return (
-		<div className="text-center">
+		<div className="text-center m-auto mt-4 p-5">
 			<Head>
 				<title>About</title>
 				<meta
@@ -12,22 +12,22 @@ export default function About() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<h1 className="">About</h1>
+			<h1 className="mt-2 p-4 text-2xl">About</h1>
 			<div>
-				<p>
+				<p className="p-4">
 					Love giphys? So do we. use our app <b>giphy search</b> to find the
 					perfect giphy for any occasion.
 				</p>
 
-				<h2>Why do people love giphys?</h2>
+				<h2 className="p-4">Why do people love giphys?</h2>
 
-				<p>
+				<p className="p-4">
 					Some people may work better with words, others with numbers, but
 					everyone gets pictures. 90% of information transmitted to the human
 					brain is visual.
 				</p>
 
-				<p>
+				<p className="p-4">
 					The old saying &quot;a picture is worth a thousand words &quot; is
 					quite cliche. But that doesn&apos;t make it any less true, especially
 					in marketing and particularly in the instant-gratification, short
@@ -36,7 +36,7 @@ export default function About() {
 					ever, especially if all you are giving them is words.
 				</p>
 
-				<p>
+				<p className="p-4">
 					Images are stronger than words. However, the fast-moving nature of
 					GIFs make them stronger than images and their shorter length make them
 					more digestible than video. That&apos;s the short answer.
